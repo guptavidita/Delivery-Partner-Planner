@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Delivery Partner Planner </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(176, 188, 204);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        h1, h2 {
+            color: rgb(9, 55, 148);
+            font-size: 100px;
+            margin: 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #507518;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #2e3a03;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Delivery Partner Planner </h1>
+        <a href="#" class="btn" onclick="redirectToLoginPage()">Login</a>
+        <a href="#" class="btn" onclick="redirectToRegistrationPage()">Register</a>
+    </div>
+
+    <script>
+        function redirectToLoginPage() {
+            window.location.href = 'logininpage.html';
+        }
+
+        function redirectToRegistrationPage() {
+            window.location.href = 'registerpage.html';
+        }
+    </script>
+</body>
+</html>
+
